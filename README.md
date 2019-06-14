@@ -6,6 +6,6 @@ b> SQL Connections with Pandas : https://github.com/naashonomics/pandas_template
 
 c) YAML to JSON :https://github.com/naashonomics/pandas_templates/blob/master/yaml_to_json.ipynb 
 
-d> Read Json from File : 
+d> Read Json from File : https://github.com/naashonomics/pandas_templates/blob/master/read_json_from_file.ipynb 
 
 

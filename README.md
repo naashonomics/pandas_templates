@@ -4,4 +4,4 @@ a> Render Pandas Dataframe to HTML using Flask : https://github.com/naashonomics
 
 b> SQL Connections with Pandas : https://github.com/naashonomics/pandas_templates/blob/master/pandas_my_sql_connection_snippet.py 
 
-c)
+c) YAML to JSON :

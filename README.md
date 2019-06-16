@@ -8,4 +8,6 @@ c) YAML to JSON :https://github.com/naashonomics/pandas_templates/blob/master/ya
 
 d> Read Json from File : https://github.com/naashonomics/pandas_templates/blob/master/read_json_from_file.ipynb 
 
+e) Datatables with ipython notebook: 
+
 

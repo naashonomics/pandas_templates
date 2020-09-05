@@ -15,4 +15,4 @@
 
 8> Python MYSQL DB Connection : https://github.com/naashonomics/pandas_templates/blob/master/mysql.py 
 
-9> Element TREE to parse XML : 
+9> Element TREE to parse XML :  https://github.com/naashonomics/pandas_templates/blob/master/etree.ipynb

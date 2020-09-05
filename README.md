@@ -10,4 +10,4 @@ d> Read Json from File : https://github.com/naashonomics/pandas_templates/blob/m
 
 e) Datatables with ipython notebook:  https://github.com/naashonomics/pandas_templates/blob/master/pandas_with_data_tables.ipynb 
 
-
+f) Dataframe to Email ipython: https://github.com/naashonomics/pandas_templates/blob/master/email_template.ipynb 

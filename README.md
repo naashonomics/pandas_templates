@@ -14,3 +14,5 @@
 7> Python sqllite template : https://github.com/naashonomics/pandas_templates/blob/master/sqllite.ipynb 
 
 8> Python MYSQL DB Connection : https://github.com/naashonomics/pandas_templates/blob/master/mysql.py 
+
+9> Element TREE to parse XML : 

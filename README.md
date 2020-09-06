@@ -11,7 +11,7 @@
 
 6> Dataframe to Email ipython: https://github.com/naashonomics/pandas_templates/blob/master/email_template.ipynb 
 
-7> Python sqllite template : https://github.com/naashonomics/pandas_templates/blob/master/sqllite.ipynb 
+7> Python sqlite template : https://github.com/naashonomics/pandas_templates/blob/master/sqllite.ipynb 
 
 8> Python MYSQL DB Connection : https://github.com/naashonomics/pandas_templates/blob/master/mysql.py 
 

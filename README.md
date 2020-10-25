@@ -18,3 +18,5 @@
 9> Element TREE to parse XML :  https://github.com/naashonomics/pandas_templates/blob/master/etree.ipynb
 
 10> CSV to Sqllite3 : https://github.com/naashonomics/pandas_templates/blob/master/csv_to_sqllite3_snippet.ipynb 
+
+11> SCP autoamton : https://github.com/naashonomics/pandas_templates/blob/master/pexcept_scp.py 

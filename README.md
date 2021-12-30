@@ -20,3 +20,5 @@
 10> CSV to Sqllite3 : https://github.com/naashonomics/pandas_templates/blob/master/csv_to_sqllite3_snippet.ipynb 
 
 11> SCP autoamton : https://github.com/naashonomics/pandas_templates/blob/master/pexcept_scp.py 
+
+12? Generic Cleanup Script: 

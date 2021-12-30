@@ -21,4 +21,4 @@
 
 11> SCP autoamton : https://github.com/naashonomics/pandas_templates/blob/master/pexcept_scp.py 
 
-12? Generic Cleanup Script: 
+12? Generic Cleanup Script: https://github.com/naashonomics/pandas_templates/blob/master/clean_up_generic.py 

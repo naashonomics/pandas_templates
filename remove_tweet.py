@@ -6,8 +6,8 @@ Delete All Your Tweets - Github Gist by davej
 Credit: https://gist.github.com/davej/113241
 Ported to Python 3 by Python Marketer: pythonmarketer.com/2020/09/13/delete-all-your-tweets-with-tweepy-and-the-twitter-api/
 """
-CONSUMER_KEY = "qiSNL9pkCIGBMCXLU6cBLF6do"
-CONSUMER_SECRET = "1WUKI1Dfn9eoh2cWMvSrDXLBPR0ZNpSkhg7eaxhbd9ea5jJFmi"
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
  
 def oauth_login(consumer_key, consumer_secret):
     """Authenticate with twitter using OAuth"""

@@ -15,7 +15,7 @@ def main():
 		st.write("Title of Video: " + str(video_object.title))
 		st.write("Number of Views: " + str(video_object.views))
 		if option=='audio':
-			video_object.streams.get_audio_only().download() 		#base64.b64encode(csv.encode()).decode()	
+			video_object.streams.get_audio_only().download() 		#base64.b64encode("if file is too large").decode()	
 		elif option=='highest_resolution':
 			video_object.streams.get_highest_resolution().download()
 		elif option=='lowest_resolution':

@@ -1,14 +1,5 @@
-import pafy
-import cv2
-import os
-import time
-import cv2
-import imutils
-import shutil
-import img2pdf
+import pafy,cv2,os,time,imutils,shutil,img2pdf,glob,base64
 import streamlit as st
-import glob
-import base64
 #constants 
 FRAME_RATE = 3                   # no.of frames per second that needs to be processed, fewer the count faster the speed
 WARMUP = FRAME_RATE              # initial number of frames to be skipped
@@ -17,8 +8,6 @@ VAR_THRESHOLD = 16               # Threshold on the squared Mahalanobis distance
 DETECT_SHADOWS = False            # If true, the algorithm will detect shadows and mark them.
 MIN_PERCENT = 0.1                # min % of diff between foreground and background to detect if motion has stopped
 MAX_PERCENT = 3                  # max % of diff between foreground and background to detect if frame is still in motion
-
-
 
 def get_frames(url):
     '''A func to return the frames from a video located at urlthis function skips frames as defined in FRAME_RATE'''
@@ -66,9 +55,7 @@ def detect_unique_screenshots(video_url, output_folder_screenshot_path):
 
         elif captured and p_diff >= MAX_PERCENT:
             captured = False
-
     return 
-
 
 def initialize_output_folder():
     '''Clean the output folder if already exists'''

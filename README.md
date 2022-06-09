@@ -26,3 +26,5 @@
 13:> Pytube with Streamlit https://github.com/naashonomics/pandas_templates/blob/master/pytube_streamlit.py
 
 14> Convert Video to PDF with Streamlit: https://github.com/naashonomics/pandas_templates/blob/master/youtube_pdf_converter.py 
+
+15> Streamlit-Authenticator : 

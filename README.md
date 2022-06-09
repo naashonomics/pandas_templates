@@ -27,4 +27,4 @@
 
 14> Convert Video to PDF with Streamlit: https://github.com/naashonomics/pandas_templates/blob/master/youtube_pdf_converter.py 
 
-15> Streamlit-Authenticator : 
+15> Streamlit-Authenticator : https://github.com/naashonomics/pandas_templates/blob/master/login.py

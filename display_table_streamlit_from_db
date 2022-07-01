@@ -1,0 +1,29 @@
+import os,subprocess,re,sqlite3
+import streamlit as st
+from st_aggrid import AgGrid
+import pandas as pd 
+from sqlite3 import Connection
+URI_SQLITE_DB = "test.db"
+
+def get_data(conn: Connection):
+    df = pd.read_sql("SELECT * FROM storage_db", con=conn)
+    return df
+
+def display_data(conn: Connection):
+    new_df=get_data(conn)
+    #st.dataframe(get_data(conn))
+    AgGrid(new_df)
+def main():
+    conn = get_connection(URI_SQLITE_DB)
+    display_data(conn)
+
+
+@st.cache(hash_funcs={Connection: id})
+def get_connection(path: str):
+    """Put the connection in cache to reuse if path does not change between Streamlit reruns.
+    NB : https://stackoverflow.com/questions/48218065/programmingerror-sqlite-objects-created-in-a-thread-can-only-be-used-in-that-sa
+    """
+    return sqlite3.connect(path, check_same_thread=False)
+
+if __name__ == "__main__":
+    main()

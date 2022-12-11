@@ -24,6 +24,6 @@ def gen_auto_response(leetcode_question):
     return response.choices[0].text
 	
 if leetcode_question and button:
-    with st.spinner("Generating Autoresponse to your review Please Wait"):
+    with st.spinner("Generating Python Solution to your leetcode problem Please Wait"):
         reply=gen_auto_response(leetcode_question)
         st.code(reply)

@@ -11,7 +11,7 @@ button= st.button("Fetch code")
 
 def gen_auto_response(leetcode_question,language_option):
 
-    openai.api_key = "Enter your API Key here "
+    openai.api_key = "API KEY"
     response = openai.Completion.create(
         model="code-cushman-001",
         prompt=f""""Given a {language_option} solution for the leetcode question below 

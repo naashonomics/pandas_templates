@@ -3,7 +3,7 @@ import os
 import openai
 
 st.header("Leet Code Solution generator in python") 
-leetcode_question=st.text_area("Type Probelm in following format <type Leet Code with constraints> ")
+leetcode_question=st.text_area("Type Problem in following format <type Leet Code with constraints> ")
 button= st.button("Fetch Python code")
 
 def gen_auto_response(leetcode_question):

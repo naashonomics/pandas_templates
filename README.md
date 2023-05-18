@@ -28,3 +28,5 @@
 14> Convert Video to PDF with Streamlit: https://github.com/naashonomics/pandas_templates/blob/master/youtube_pdf_converter.py 
 
 15> Streamlit-Authenticator : https://github.com/naashonomics/pandas_templates/blob/master/login.py
+
+16> Streamlit Editor to read , edit and save json files: https://github.com/naashonomics/pandas_templates/blob/master/json_editor.py

@@ -30,7 +30,7 @@
 15> Streamlit-Authenticator : https://github.com/naashonomics/pandas_templates/blob/master/login.py
 
 16> Streamlit Editor to read , view, edit and save json files: 
+
+Static Text Area: https://github.com/naashonomics/pandas_templates/blob/master/json_editor.py
       
-      Static Text Area: https://github.com/naashonomics/pandas_templates/blob/master/json_editor.py
-      
-      Dynmic Text Area (tested on 28 MB):https://github.com/naashonomics/pandas_templates/blob/master/json_editor_dynamic.py
+Dynmic Text Area (tested on 28 MB):https://github.com/naashonomics/pandas_templates/blob/master/json_editor_dynamic.py
